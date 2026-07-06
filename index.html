@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Erin Wilson Portfolio</title>
+  <meta name="description" content="Portfolio of Erin Wilson, MSc Geographic Data Science student at the University of Liverpool.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="nav">
+  <a class="brand" href="index.html">Erin Wilson</a>
+  <button class="menu-button" aria-label="Open navigation" type="button">Menu</button>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="projects.html">Projects</a>
+    <a href="about.html">About</a>
+    <a href="cv.html">CV</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+  <button class="theme-toggle" type="button" aria-label="Toggle light and dark mode">☾</button>
+</header>
+<main>
+
+<section class="hero reveal">
+  <div class="hero-copy">
+    <p class="label">MSc Geographic Data Science</p>
+    <h1>Erin Wilson</h1>
+    <p class="subtitle">GIS, Environmental Data And Spatial Analysis</p>
+    <p class="intro">My work explores the relationship between environmental processes, spatial data and decision making. Through GIS, programming and data visualisation, I investigate questions linked to flood risk, access to greenspace, environmental change and urban planning.</p>
+    <div class="actions"><a class="button" href="projects.html">View Projects</a><a class="button quiet" href="about.html">About</a></div>
+  </div>
+  <button class="hero-image" data-lightbox="assets/Assignment1_envs456_9_0.png"><img src="assets/Assignment1_envs456_9_0.png" alt="Interactive flood risk map visual"></button>
+</section>
+<section class="section reveal">
+  <div class="section-heading"><p class="label">Selected Work</p><h2>Featured Projects</h2><p>The portfolio brings together GIS, spatial analysis, coding and visual design from my degree work.</p></div>
+  <div class="project-grid"><article class="project-card reveal">
+  <a class="image-link" href="leeds-flood-risk.html"><img src="assets/Assignment1_envs456_9_0.png" alt="Leeds Flood Risk And Social Vulnerability"></a>
+  <div class="card-body"><p class="label">Environmental Risk</p><h3>Leeds Flood Risk And Social Vulnerability</h3><p>This project explores how flood monitoring infrastructure, flood communication areas and social vulnerability interact across Leeds.</p><p class="tools-line">Python · GeoPandas · Folium · Environment Agency API</p><a class="text-link" href="leeds-flood-risk.html">View Project</a></div>
+</article><article class="project-card reveal">
+  <a class="image-link" href="london-greenspace-access.html"><img src="assets/envs456_assignment2_16_0.png" alt="London Greenspace Accessibility"></a>
+  <div class="card-body"><p class="label">Urban Environment</p><h3>London Greenspace Accessibility</h3><p>This project examines spatial inequality in access to greenspace across London using GIS analysis and clear visualisation.</p><p class="tools-line">Python · GeoPandas · Accessibility Analysis · Cartography</p><a class="text-link" href="london-greenspace-access.html">View Project</a></div>
+</article><article class="project-card reveal">
+  <a class="image-link" href="asda-location-suitability.html"><img src="assets/asda_4.png" alt="Retail Location Suitability For Asda Express"></a>
+  <div class="card-body"><p class="label">Location Analysis</p><h3>Retail Location Suitability For Asda Express</h3><p>This project compares three proposed Asda Express locations in Liverpool using demographic, population and retail competition data.</p><p class="tools-line">QGIS · IMD · IUC · GEOLYTIX · Suitability Scoring</p><a class="text-link" href="asda-location-suitability.html">View Project</a></div>
+</article></div>
+  <div class="center"><a class="button quiet" href="projects.html">View All Projects</a></div>
+</section>
+<section class="split-section reveal">
+  <div><p class="label">Current Direction</p><h2>Environmental Data Science</h2></div>
+  <div class="panel"><p>I am particularly interested in the use of geospatial data to understand environmental risk, climate resilience and urban systems. My current work is moving towards rainfall driven flood risk modelling using machine learning and UK climate projection data.</p><p>The dissertation section will become the main project once the final research and outputs are complete.</p></div>
+</section>
+<section class="section reveal">
+  <div class="skills-minimal"><span>Python</span><span>R</span><span>QGIS</span><span>ArcGIS Pro</span><span>SQL</span><span>GeoPandas</span><span>Folium</span><span>Spatial Statistics</span><span>Machine Learning</span><span>Cartography</span></div>
+</section>
+</main>
+<footer class="footer">
+  <div>
+    <strong>Erin Wilson</strong>
+    <p>MSc Geographic Data Science, University of Liverpool</p>
+  </div>
+  <div class="footer-links">
+    <a href="mailto:ErinMeganWilson@gmail.com">Email</a>
+    <a href="https://www.linkedin.com/in/erinwil" target="_blank" rel="noopener">LinkedIn</a>
+    <a href="cv.html">CV</a>
+  </div>
+</footer>
+<div class="lightbox" hidden>
+  <button class="close" type="button" aria-label="Close image">×</button>
+  <button class="prev" type="button" aria-label="Previous image">‹</button>
+  <img alt="Expanded portfolio image">
+  <button class="next" type="button" aria-label="Next image">›</button>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

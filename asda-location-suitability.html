@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Retail Location Suitability For Asda Express | Erin Wilson Portfolio</title>
+  <meta name="description" content="Portfolio of Erin Wilson, MSc Geographic Data Science student at the University of Liverpool.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="nav">
+  <a class="brand" href="index.html">Erin Wilson</a>
+  <button class="menu-button" aria-label="Open navigation" type="button">Menu</button>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="projects.html">Projects</a>
+    <a href="about.html">About</a>
+    <a href="cv.html">CV</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+  <button class="theme-toggle" type="button" aria-label="Toggle light and dark mode">☾</button>
+</header>
+<main>
+
+<section class="case-hero reveal">
+  <div><p class="label">Location Analysis</p><h1>Retail Location Suitability For Asda Express</h1><p>This project assesses three possible Asda Express locations in Liverpool: Long Lane in Norris Green, Innovation Boulevard in Wavertree and Lark Lane in Aigburth. The study combines demographic, behavioural and retail competition indicators to compare each site.</p></div>
+  <button class="case-image" data-lightbox="assets/asda_4.png"><img src="assets/asda_4.png" alt="Retail Location Suitability For Asda Express"></button>
+</section>
+<section class="split-section reveal"><div><p class="label">Research Question</p><h2>Which of the three proposed Liverpool locations offers the strongest spatial evidence for a new Asda Express?</h2></div><div class="panel"><p>This project assesses three possible Asda Express locations in Liverpool: Long Lane in Norris Green, Innovation Boulevard in Wavertree and Lark Lane in Aigburth. The study combines demographic, behavioural and retail competition indicators to compare each site.</p></div></section>
+<section class="case-grid reveal">
+  <div class="panel"><h2>Data</h2><ul><li>Index of Multiple Deprivation</li><li>Internet User Classification</li><li>Daytime and night time population</li><li>GEOLYTIX retail points</li><li>Liverpool LSOA boundaries</li><li>Proposed store locations</li></ul></div>
+  <div class="panel"><h2>Method</h2><ul><li>Created walking catchments around each proposed site</li><li>Joined deprivation, population and digital behaviour data to LSOA boundaries</li><li>Assessed convenience store competition within each catchment</li><li>Mapped site context, deprivation, digital behaviour, population and retail competition</li><li>Combined the evidence in a weighted scoring matrix</li></ul></div>
+</section>
+<section class="section reveal"><div class="section-heading"><p class="label">Visual Work</p><h2>Project Gallery</h2><p>Click any image to view it at full size.</p></div><div class="gallery"><button class="gallery-item" data-lightbox="assets/asda_0.jpeg"><img src="assets/asda_0.jpeg" alt="Portfolio project visual"></button><button class="gallery-item" data-lightbox="assets/asda_1.png"><img src="assets/asda_1.png" alt="Portfolio project visual"></button><button class="gallery-item" data-lightbox="assets/asda_2.png"><img src="assets/asda_2.png" alt="Portfolio project visual"></button><button class="gallery-item" data-lightbox="assets/asda_3.png"><img src="assets/asda_3.png" alt="Portfolio project visual"></button><button class="gallery-item" data-lightbox="assets/asda_4.png"><img src="assets/asda_4.png" alt="Portfolio project visual"></button><button class="gallery-item" data-lightbox="assets/asda_5.png"><img src="assets/asda_5.png" alt="Portfolio project visual"></button><button class="gallery-item" data-lightbox="assets/asda_6.png"><img src="assets/asda_6.png" alt="Portfolio project visual"></button><button class="gallery-item" data-lightbox="assets/asda_7.png"><img src="assets/asda_7.png" alt="Portfolio project visual"></button><button class="gallery-item" data-lightbox="assets/asda_8.png"><img src="assets/asda_8.png" alt="Portfolio project visual"></button></div></section>
+<section class="split-section reveal"><div><p class="label">Output</p><h2>Outcome</h2></div><div class="panel"><p>The final recommendation identified Long Lane as the strongest location. It had a balanced population profile, high local reliance on physical retail and no competing convenience stores within the walking catchment.</p><p class="tools-line">QGIS · Spatial Joins · Catchment Analysis · IMD · IUC · GEOLYTIX · Suitability Scoring</p></div></section>
+<section class="split-section reveal"><div><p class="label">Reflection</p><h2>What This Project Shows</h2></div><div class="panel"><p>This project shows my ability to turn a spatial question into a complete workflow, from data preparation and analysis through to visual communication. It also reflects the way I approach GIS work: with a focus on clarity, interpretation and the relationship between environmental data and place.</p></div></section>
+</main>
+<footer class="footer">
+  <div>
+    <strong>Erin Wilson</strong>
+    <p>MSc Geographic Data Science, University of Liverpool</p>
+  </div>
+  <div class="footer-links">
+    <a href="mailto:ErinMeganWilson@gmail.com">Email</a>
+    <a href="https://www.linkedin.com/in/erinwil" target="_blank" rel="noopener">LinkedIn</a>
+    <a href="cv.html">CV</a>
+  </div>
+</footer>
+<div class="lightbox" hidden>
+  <button class="close" type="button" aria-label="Close image">×</button>
+  <button class="prev" type="button" aria-label="Previous image">‹</button>
+  <img alt="Expanded portfolio image">
+  <button class="next" type="button" aria-label="Next image">›</button>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
